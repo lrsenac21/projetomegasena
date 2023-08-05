@@ -1,16 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainComponent } from './home/main.component';
+import { SorteioComponent } from './sorteio/sorteio.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { RouterModule } from '@angular/router';
+import { ROUTE } from 'src/app.routes';
+import { HeaderComponent } from './header/header.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent,
+    SorteioComponent,
+    SobreComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(ROUTE)
   ],
   providers: [],
   bootstrap: [AppComponent]

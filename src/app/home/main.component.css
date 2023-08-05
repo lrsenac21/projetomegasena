@@ -1,0 +1,22 @@
+main .sortear{
+    width: auto;
+    height: 10rem;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.sortear button a{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    width: auto;
+    height: auto;
+    bottom:0;
+    
+
+}
